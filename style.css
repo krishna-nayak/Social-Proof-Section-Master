@@ -77,6 +77,13 @@ p {
 /* bottom-container */
 .bottom-container {
 	display: flex;
+	width: 72%;
+	margin: 0 auto;
+	justify-content: space-evenly;
+}
+.customer-box {
+	border: 2px solid black;
+	margin: 0 1%;
 }
 .user-info {
 	display: flex;
