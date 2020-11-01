@@ -5,14 +5,17 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: 100% 100%;
-	font-size: 20px;
+	font-size: 18px;
 	font-family: sans-serif;
 }
 h1 {
 	margin: 0px;
-	font-size: 60px;
+	font-size: 55px;
 	line-height: 50px;
 	font-weight: 500;
+}
+p {
+	margin: 0px;
 }
 
 /* Top haeding layer */
@@ -29,7 +32,8 @@ h1 {
 	flex-direction: column;
 	justify-content: space-between;
 }
-.headline {
+.text {
+	margin-top: 15px;
 }
 
 .rating {
