@@ -38,6 +38,7 @@ p {
 }
 
 .rating {
+	width: 50%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -46,7 +47,7 @@ p {
 	display: flex;
 	align-items: center;
 	flex-wrap: nowrap;
-	width: 100%;
+	width: 79%;
 	height: 20%;
 	background-color: hsl(300, 24%, 96%);
 	border-radius: 10px;
