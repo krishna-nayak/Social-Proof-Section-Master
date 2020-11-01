@@ -34,6 +34,7 @@ p {
 }
 .text {
 	margin-top: 15px;
+	font-weight: 100;
 }
 
 .rating {
@@ -47,13 +48,14 @@ p {
 	height: 20%;
 	border: 2px solid black;
 	border-radius: 10px;
+	padding-right: 30px;
 }
 
 .star {
-	margin-left: 15px;
+	padding: 0px 15px;
 }
 [src="images/icon-star.svg"] {
-	margin: 5px;
+	margin: 2px;
 }
 .rating-box p {
 	margin: 0 10px 0 30px;
