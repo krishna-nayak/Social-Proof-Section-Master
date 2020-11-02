@@ -84,12 +84,34 @@ p {
 	display: flex;
 	width: 72%;
 	margin: 0 auto;
-	justify-content: space-evenly;
+	justify-content: space-between;
+	color: hsl(0, 0%, 100%);
 }
 .customer-box {
-	border: 2px solid black;
+	/* border: 2px solid black; */
 	margin: 0 1%;
+	padding: 3% 3%;
+	border-radius: 10px;
+	background-color: hsl(300, 43%, 22%);
 }
 .user-info {
 	display: flex;
+	align-items: center;
+}
+[alt="customer-image"] {
+	width: 45px;
+	border-radius: 100px;
+}
+.customer {
+	margin-left: 20px;
+}
+.name {
+	font-weight: 700;
+}
+.verifey {
+	font-weight: 400;
+	color: hsl(333, 80%, 67%);
+}
+.description {
+	margin-top: 20px;
 }
