@@ -1,10 +1,11 @@
 body {
 	margin: 0px;
 	padding: 0px;
-	background-image: url("images/bg-pattern-top-desktop.svg");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: 100% 100%;
+	background-image: url("images/bg-pattern-top-desktop.svg"),
+		url("images/bg-pattern-bottom-desktop.svg");
+	background-repeat: no-repeat, no-repeat;
+	/* background-attachment: fixed, fixed; */
+	background-position: left top, right bottom;
 	font-size: 15px;
 	font-family: "Spartan", sans-serif;
 	color: hsl(303, 10%, 53%);
