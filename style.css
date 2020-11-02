@@ -7,12 +7,14 @@ body {
 	background-size: 100% 100%;
 	font-size: 15px;
 	font-family: "Spartan", sans-serif;
+	color: hsl(303, 10%, 53%);
 }
 h1 {
 	margin: 0px;
 	font-size: 50px;
 	line-height: 50px;
 	font-weight: 700;
+	color: hsl(300, 43%, 22%);
 }
 p {
 	margin: 0px;
@@ -62,7 +64,7 @@ p {
 }
 .rating-box p {
 	/* margin: 0 10px 0 30px; */
-	font-weight: 600;
+	font-weight: 700;
 	font-size: 15px;
 	color: hsl(300, 43%, 22%);
 }
@@ -114,4 +116,12 @@ p {
 }
 .description {
 	margin-top: 20px;
+}
+.customer-2 {
+	position: relative;
+	top: 15px;
+}
+.customer-3 {
+	position: relative;
+	top: 30px;
 }
