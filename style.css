@@ -1,18 +1,18 @@
 body {
-	margin: 0px;
 	padding: 0px;
 	background-image: url("images/bg-pattern-top-desktop.svg"),
 		url("images/bg-pattern-bottom-desktop.svg");
 	background-repeat: no-repeat, no-repeat;
-	/* background-attachment: fixed, fixed; */
 	background-position: left top, right bottom;
 	font-size: 15px;
 	font-family: "Spartan", sans-serif;
 	color: hsl(303, 10%, 53%);
+	width: 1440px;
+	margin: 0 auto;
 }
 h1 {
 	margin: 0px;
-	font-size: 50px;
+	font-size: 55px;
 	line-height: 50px;
 	font-weight: 700;
 	color: hsl(300, 43%, 22%);
@@ -23,14 +23,15 @@ p {
 
 /* Top haeding layer */
 .top-container {
-	width: 70%;
+	width: 90%;
 	display: flex;
 	margin: 100px auto;
+	padding: 0 3%;
 }
 
 .heading {
-	width: 45%;
-	margin-right: 5%;
+	width: 35%;
+	margin-right: 15%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -50,11 +51,12 @@ p {
 	display: flex;
 	align-items: center;
 	flex-wrap: nowrap;
-	width: 79%;
+	justify-content: center;
+	width: 60%;
 	height: 20%;
 	background-color: hsl(300, 24%, 96%);
 	border-radius: 10px;
-	padding: 5px 30px 5px 5px;
+	padding: 7px 30px 7px 5px;
 }
 
 .star {
@@ -70,22 +72,19 @@ p {
 	color: hsl(300, 43%, 22%);
 }
 .rated-customer-1 {
-	position: relative;
-	left: 0px;
+	align-self: flex-start;
 }
 .rated-customer-2 {
-	position: relative;
-	left: 40px;
+	align-self: center;
 }
 .rated-customer-3 {
-	position: relative;
-	left: 80px;
+	align-self: flex-end;
 }
 
 /* bottom-container */
 .bottom-container {
 	display: flex;
-	width: 72%;
+	width: 92%;
 	margin: 0 auto;
 	justify-content: space-between;
 	color: hsl(0, 0%, 100%);
