@@ -1,15 +1,18 @@
+* {
+	padding: 0;
+	margin: 0;
+}
 body {
-	padding: 0px;
-	background-image: url("images/bg-pattern-top-desktop.svg"), url("images/bg-pattern-bottom-desktop.svg");
-	background-repeat: no-repeat, no-repeat;
+	background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
 	background-position: left top, right bottom;
+	background-repeat: no-repeat, no-repeat;
 	font-size: 15px;
 	font-family: "Spartan", sans-serif;
 	color: hsl(303, 10%, 53%);
-	/* width: 1440px; */
-	margin: 0 auto;
+	/* width: 100vw; */
+	/* height: 1400px; */
 }
-h1 {
+/* h1 {
 	margin: 0px;
 	font-size: 55px;
 	line-height: 50px;
@@ -18,9 +21,11 @@ h1 {
 }
 p {
 	margin: 0px;
-}
+} */
 
 /* Top haeding layer */
+/* 
+
 .top-container {
 	width: 90%;
 	display: flex;
@@ -65,7 +70,6 @@ p {
 	margin: 2px;
 }
 .rating-box p {
-	/* margin: 0 10px 0 30px; */
 	font-weight: 700;
 	font-size: 15px;
 	color: hsl(300, 43%, 22%);
@@ -78,10 +82,10 @@ p {
 }
 .rated-customer-3 {
 	align-self: flex-end;
-}
+} */
 
 /* bottom-container */
-.bottom-container {
+/* .bottom-container {
 	display: flex;
 	width: 92%;
 	margin: 0 auto;
@@ -89,7 +93,6 @@ p {
 	color: hsl(0, 0%, 100%);
 }
 .customer-box {
-	/* border: 2px solid black; */
 	margin: 0 1%;
 	padding: 3% 3%;
 	border-radius: 10px;
@@ -123,4 +126,4 @@ p {
 .customer-3 {
 	position: relative;
 	top: 30px;
-}
+} */
