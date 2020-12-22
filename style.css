@@ -1,13 +1,12 @@
 body {
 	padding: 0px;
-	background-image: url("images/bg-pattern-top-desktop.svg"),
-		url("images/bg-pattern-bottom-desktop.svg");
+	background-image: url("images/bg-pattern-top-desktop.svg"), url("images/bg-pattern-bottom-desktop.svg");
 	background-repeat: no-repeat, no-repeat;
 	background-position: left top, right bottom;
 	font-size: 15px;
 	font-family: "Spartan", sans-serif;
 	color: hsl(303, 10%, 53%);
-	width: 1440px;
+	/* width: 1440px; */
 	margin: 0 auto;
 }
 h1 {
