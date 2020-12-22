@@ -9,70 +9,56 @@ body {
 	font-size: 15px;
 	font-family: "Spartan", sans-serif;
 	color: hsl(303, 10%, 53%);
-	/* width: 100vw; */
-	/* height: 1400px; */
 }
-/* h1 {
+h1 {
 	margin: 0px;
 	font-size: 55px;
-	line-height: 50px;
+	line-height: 1;
 	font-weight: 700;
 	color: hsl(300, 43%, 22%);
 }
 p {
 	margin: 0px;
-} */
-
+}
+/* Grid-Container */
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-auto-rows: auto;
+}
 /* Top haeding layer */
-/* 
 
-.top-container {
-	width: 90%;
+#top-container {
 	display: flex;
 	margin: 100px auto;
-	padding: 0 3%;
 }
 
 .heading {
-	width: 35%;
-	margin-right: 15%;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
+	grid-column: 2 / span 4;
+	line-height: 1.5;
 }
+
 .text {
 	margin-top: 15px;
-	font-weight: 100;
 }
 
 .rating {
-	width: 50%;
+	grid-column: 7 / span 5;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 }
+
 .rating-box {
 	display: flex;
 	align-items: center;
-	flex-wrap: nowrap;
 	justify-content: center;
-	width: 60%;
+	text-align: center;
+	width: 70%;
 	height: 20%;
 	background-color: hsl(300, 24%, 96%);
 	border-radius: 10px;
-	padding: 7px 30px 7px 5px;
-}
-
-.star {
-	padding: 0px 15px;
-}
-[src="images/icon-star.svg"] {
-	margin: 2px;
-}
-.rating-box p {
-	font-weight: 700;
-	font-size: 15px;
-	color: hsl(300, 43%, 22%);
+	padding: 1% 3% 1% 3%;
 }
 .rated-customer-1 {
 	align-self: flex-start;
@@ -82,7 +68,69 @@ p {
 }
 .rated-customer-3 {
 	align-self: flex-end;
-} */
+}
+
+.star {
+	display: flex;
+	padding: 0px 1%;
+	flex-wrap: nowrap;
+}
+[src="images/icon-star.svg"] {
+	margin: 0 2px;
+}
+.rating-text {
+	margin: 0 3%;
+	font-weight: 700;
+	color: hsl(300, 43%, 22%);
+}
+
+@media screen and (max-width: 800px) {
+	.rating-box {
+		flex-direction: column;
+	}
+	.rating-text {
+		margin-top: 4%;
+	}
+	.rated-customer-1 {
+		align-self: auto;
+	}
+	.rated-customer-2 {
+		align-self: auto;
+	}
+	.rated-customer-3 {
+		align-self: auto;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#top-container {
+		text-align: center;
+	}
+	.heading {
+		grid-column: 2 / span 10;
+	}
+	.rating {
+		margin-top: 50px;
+		grid-column: 2 / span 10;
+	}
+	.rating-box {
+		width: 94%;
+		line-height: 25px;
+	}
+
+	/* Need to perfect 450px layout  */
+	.rating-box * {
+		margin: 2% 0;
+	}
+}
+
+/*
+.rating-box p {
+	font-weight: 700;
+	font-size: 15px;
+	color: hsl(300, 43%, 22%);
+}
+ */
 
 /* bottom-container */
 /* .bottom-container {
