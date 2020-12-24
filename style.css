@@ -72,7 +72,7 @@ p {
 
 .star {
 	display: flex;
-	padding: 0px 1%;
+	padding: 1% 1%;
 	flex-wrap: nowrap;
 }
 [src="images/icon-star.svg"] {
@@ -92,13 +92,13 @@ p {
 		margin-top: 4%;
 	}
 	.rated-customer-1 {
-		align-self: auto;
+		align-self: center;
 	}
 	.rated-customer-2 {
-		align-self: auto;
+		align-self: center;
 	}
 	.rated-customer-3 {
-		align-self: auto;
+		align-self: center;
 	}
 }
 
@@ -110,18 +110,20 @@ p {
 		grid-column: 2 / span 10;
 	}
 	.rating {
+		height: 300px;
 		margin-top: 50px;
 		grid-column: 2 / span 10;
 	}
 	.rating-box {
 		width: 94%;
+		height: 25%;
 		line-height: 25px;
 	}
 
 	/* Need to perfect 450px layout  */
-	.rating-box * {
+	/* .rating-box * {
 		margin: 2% 0;
-	}
+	} */
 }
 
 /*
