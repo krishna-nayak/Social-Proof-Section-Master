@@ -10,7 +10,12 @@ body {
 	font-family: "Spartan", sans-serif;
 	color: hsl(303, 10%, 53%);
 }
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	margin: 0px;
 	font-size: 55px;
 	line-height: 1;
